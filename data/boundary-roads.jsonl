@@ -1,0 +1,2 @@
+{"id": "e1", "minutes": 100, "mode": "walk", "one_way": false, "source": "v1", "target": "s1"}
+{"id": "e2", "minutes": 30, "mode": "walk", "one_way": false, "source": "v2", "target": "s1"}

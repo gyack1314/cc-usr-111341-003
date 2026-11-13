@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "tables": {
+    "nodes": {
+      "file": "boundary-nodes.jsonl",
+      "sha256": "99646f89a9ea85cef0ec7e7057871c1b3f0f68a033ffb1b1b6500ff39cfd5472",
+      "bytes": 39,
+      "rows": 3,
+      "fields": [
+        "id"
+      ]
+    },
+    "roads": {
+      "file": "boundary-roads.jsonl",
+      "sha256": "fdc558d5a514eb1f8506a905a1a4866fabea741343cfcb556bda726f4732fd5c",
+      "bytes": 189,
+      "rows": 2,
+      "fields": [
+        "id",
+        "source",
+        "target",
+        "mode",
+        "minutes",
+        "one_way"
+      ]
+    },
+    "demand": {
+      "file": "boundary-demand.jsonl",
+      "sha256": "e4561c9af7f90734cb98ebf5dd0dd45692d5c72b2969003e8aa5506d276d3c68",
+      "bytes": 218,
+      "rows": 2,
+      "fields": [
+        "id",
+        "resident_group",
+        "node",
+        "area",
+        "people",
+        "service",
+        "units"
+      ]
+    },
+    "sites": {
+      "file": "boundary-sites.jsonl",
+      "sha256": "945e169cb835b1f860ded04559a753f4e0e5b3488bd37406dd9eb0fe40a656e8",
+      "bytes": 174,
+      "rows": 2,
+      "fields": [
+        "id",
+        "node",
+        "service",
+        "pool",
+        "minutes_per_unit"
+      ]
+    },
+    "pools": {
+      "file": "boundary-pools.jsonl",
+      "sha256": "1c12bf78be804d8a785f25521e776019ebb8c15ab74e484b888cb14943583944",
+      "bytes": 36,
+      "rows": 1,
+      "fields": [
+        "id",
+        "weekly_minutes"
+      ]
+    }
+  }
+}

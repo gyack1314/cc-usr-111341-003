@@ -1,0 +1,2 @@
+{"id": "desk1", "minutes_per_unit": 10, "node": "s1", "pool": "p1", "service": "card"}
+{"id": "desk2", "minutes_per_unit": 10, "node": "s1", "pool": "p1", "service": "card"}
