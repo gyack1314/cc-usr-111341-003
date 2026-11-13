@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "version": {
+    "id": "v2",
+    "dataset": "coordination",
+    "created": "2025-03-03",
+    "note": "道路更新：河湾人行桥",
+    "previous": "v1"
+  },
+  "tables": {
+    "nodes": {
+      "file": "nodes.jsonl",
+      "sha256": "a750e0a68e7edad9aacc40c734cbd7d0b2d926c959cf5cd4402511154ea970e0",
+      "bytes": 117,
+      "rows": 9,
+      "fields": [
+        "id"
+      ]
+    },
+    "residents": {
+      "file": "residents.jsonl",
+      "sha256": "f2fd7b8f2a1cdbf102c3f1bc97763c89aa3f7c75a5d027014bb716e1536dcc14",
+      "bytes": 1448,
+      "rows": 12,
+      "fields": [
+        "age",
+        "area",
+        "group",
+        "id",
+        "node",
+        "people",
+        "person"
+      ]
+    },
+    "demands": {
+      "file": "demands.jsonl",
+      "sha256": "33bdc8e44227d5bfd9dfd86274ec145a9c6c00e3a73daf952ee514d1937e57b1",
+      "bytes": 3249,
+      "rows": 17,
+      "fields": [
+        "atomic",
+        "days",
+        "earliest",
+        "id",
+        "latest",
+        "note",
+        "resident",
+        "service",
+        "units"
+      ]
+    },
+    "sites": {
+      "file": "sites.jsonl",
+      "sha256": "8c8b26b13628545f5b93a25b2bf707a42b1ec2ba13290150d0258c4c4c78f8e9",
+      "bytes": 2318,
+      "rows": 6,
+      "fields": [
+        "area",
+        "id",
+        "name",
+        "node",
+        "open_hours",
+        "pool",
+        "service_rates",
+        "services"
+      ]
+    },
+    "pools": {
+      "file": "pools.jsonl",
+      "sha256": "4d1a189452189e990c444435b65829d57f1166b46260f7958016e131d9e4c160",
+      "bytes": 329,
+      "rows": 4,
+      "fields": [
+        "id",
+        "name",
+        "weekly_minutes"
+      ]
+    },
+    "roads": {
+      "file": "roads.jsonl",
+      "sha256": "56c4819acfe3e8f40809d5b15b2bf688f7a180a8db2e6366a204d195df9b398e",
+      "bytes": 1528,
+      "rows": 12,
+      "fields": [
+        "id",
+        "minutes",
+        "mode",
+        "name",
+        "one_way",
+        "source",
+        "target"
+      ]
+    },
+    "bus_lines": {
+      "file": "bus_lines.jsonl",
+      "sha256": "fb408caaee46c24ff58624bb6d8b57cec4c390acd0c5870dd684e164a210a97c",
+      "bytes": 666,
+      "rows": 3,
+      "fields": [
+        "days",
+        "first_departure",
+        "headway_minutes",
+        "id",
+        "last_departure",
+        "name",
+        "road",
+        "wait_rule"
+      ]
+    },
+    "standards": {
+      "file": "standards.jsonl",
+      "sha256": "a0c973b11e542b398a407a68aa2754c5d7fee441b74603dec7b8d48aaa694001",
+      "bytes": 675,
+      "rows": 4,
+      "fields": [
+        "group",
+        "id",
+        "max_travel_minutes",
+        "mode_limits",
+        "modes",
+        "note",
+        "service"
+      ]
+    }
+  }
+}

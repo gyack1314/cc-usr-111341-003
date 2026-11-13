@@ -1,0 +1,17 @@
+{"atomic": false, "days": [], "earliest": null, "id": "d_r_w1_wang_card", "latest": null, "note": "按人逐件办理", "resident": "r_w1_wang", "service": "card", "units": 2}
+{"atomic": true, "days": ["mon", "tue", "wed", "thu", "fri"], "earliest": "09:00", "id": "d_r_w1_wang_care", "latest": "15:00", "note": "整单办理", "resident": "r_w1_wang", "service": "care", "units": 1}
+{"atomic": false, "days": ["sat"], "earliest": "09:00", "id": "d_r_w1_li_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_w1_li", "service": "card", "units": 1}
+{"atomic": true, "days": ["sat"], "earliest": "09:00", "id": "d_r_w1_li_permit", "latest": "12:00", "note": "整单办理", "resident": "r_w1_li", "service": "permit", "units": 1}
+{"atomic": true, "days": ["mon", "tue", "wed", "thu", "fri"], "earliest": "09:00", "id": "d_r_w2_zhao_care", "latest": "15:00", "note": "整单办理", "resident": "r_w2_zhao", "service": "care", "units": 1}
+{"atomic": false, "days": ["sat"], "earliest": "09:00", "id": "d_r_w2_chen_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_w2_chen", "service": "card", "units": 1}
+{"atomic": false, "days": ["mon", "tue", "wed", "thu", "fri"], "earliest": "09:00", "id": "d_r_e1_sun_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_e1_sun", "service": "card", "units": 1}
+{"atomic": true, "days": ["mon", "tue", "wed", "thu", "fri"], "earliest": "09:00", "id": "d_r_e1_sun_care", "latest": "15:00", "note": "整单办理", "resident": "r_e1_sun", "service": "care", "units": 1}
+{"atomic": false, "days": ["sat"], "earliest": "09:00", "id": "d_r_e1_zhou_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_e1_zhou", "service": "card", "units": 1}
+{"atomic": true, "days": ["sat"], "earliest": "09:00", "id": "d_r_e1_zhou_permit", "latest": "12:00", "note": "整单办理", "resident": "r_e1_zhou", "service": "permit", "units": 1}
+{"atomic": false, "days": ["tue", "thu"], "earliest": "09:00", "id": "d_r_e2_wu_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_e2_wu", "service": "card", "units": 1}
+{"atomic": true, "days": ["sat"], "earliest": "09:00", "id": "d_r_e2_zheng_permit", "latest": "12:00", "note": "整单办理", "resident": "r_e2_zheng", "service": "permit", "units": 1}
+{"atomic": false, "days": ["tue", "thu"], "earliest": "09:00", "id": "d_r_h1_feng_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_h1_feng", "service": "card", "units": 1}
+{"atomic": true, "days": ["wed"], "earliest": "09:00", "id": "d_r_h1_feng_care", "latest": "12:00", "note": "整单办理", "resident": "r_h1_feng", "service": "care", "units": 1}
+{"atomic": false, "days": ["sat"], "earliest": "09:00", "id": "d_r_h1_qian_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_h1_qian", "service": "card", "units": 1}
+{"atomic": false, "days": ["tue", "thu"], "earliest": "09:00", "id": "d_r_m1_ma_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_m1_ma", "service": "card", "units": 1}
+{"atomic": false, "days": ["tue", "thu"], "earliest": "09:00", "id": "d_r_m1_mo_card", "latest": "12:00", "note": "按人逐件办理", "resident": "r_m1_mo", "service": "card", "units": 1}

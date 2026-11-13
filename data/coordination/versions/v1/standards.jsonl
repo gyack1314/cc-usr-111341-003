@@ -1,0 +1,4 @@
+{"group": "*", "id": "st_card_all", "max_travel_minutes": 60, "mode_limits": null, "modes": ["walk", "bus"], "note": "", "service": "card"}
+{"group": "老年", "id": "st_card_old", "max_travel_minutes": 45, "mode_limits": {"bus": 60, "walk": 45}, "modes": ["walk", "bus"], "note": "老人步行门槛更紧，公交按候车后的总时间给60分钟", "service": "card"}
+{"group": "*", "id": "st_care_all", "max_travel_minutes": 45, "mode_limits": {"bus": 45, "walk": 45}, "modes": ["walk", "bus"], "note": "", "service": "care"}
+{"group": "*", "id": "st_permit_all", "max_travel_minutes": 90, "mode_limits": null, "modes": ["walk", "bus"], "note": "", "service": "permit"}

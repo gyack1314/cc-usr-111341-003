@@ -1,0 +1,43 @@
+{
+  "plans": [
+    {
+      "id": "sat",
+      "label": "延长开放时间：集镇综合窗口周六上午",
+      "note": "只改开放时段，能力池不变。",
+      "adjustments": [
+        {"id": "a_sat", "kind": "open_hours", "description": "集镇综合窗口周六 09:00-12:00 开放",
+         "site_id": "s_town_card", "open_hours": [{"day": "sat", "start": "09:00", "end": "12:00"}]}
+      ]
+    },
+    {
+      "id": "share",
+      "label": "共享办理能力：集镇综合与照护窗口合并人员池",
+      "note": "两个窗口仍各自受理，但只有一组人员预算。",
+      "adjustments": [
+        {"id": "a_share", "kind": "shared_capacity", "description": "把照护窗口人员并入综合窗口人员池",
+         "pool_id": "p_town_a", "merge_pools": ["p_town_b"]}
+      ]
+    },
+    {
+      "id": "newsite",
+      "label": "增设服务点：河湾周六卡证窗口",
+      "note": "与集镇共用同一人员池，不新增编制。",
+      "adjustments": [
+        {"id": "a_newsite", "kind": "new_site", "description": "河湾点周六加开卡证窗口",
+         "target_id": "s_east_sat", "node": "e2", "service": "card",
+         "minutes_per_unit": 5, "pool_id": "p_town_a", "area": "东岸",
+         "open_hours": [{"day": "sat", "start": "09:00", "end": "12:00"}]}
+      ]
+    },
+    {
+      "id": "bridge",
+      "label": "增设服务点：西岸—河湾步行便桥（同时缩短路径）",
+      "note": "只改路网，不改能力。",
+      "adjustments": [
+        {"id": "a_bridge", "kind": "new_road", "description": "西岸下村到河湾新增步行便桥",
+         "target_id": "r_w2_e2_new", "source": "w2", "target": "e2",
+         "mode": "walk", "minutes": 8, "one_way": false}
+      ]
+    }
+  ]
+}

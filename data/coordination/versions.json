@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "versions": [
+    {
+      "id": "v1",
+      "manifest": "versions/v1/manifest.json",
+      "created": "2025-01-06",
+      "previous": null,
+      "note": "基线：跨河仅北桥，集镇与河湾共用人员"
+    },
+    {
+      "id": "v2",
+      "manifest": "versions/v2/manifest.json",
+      "created": "2025-03-03",
+      "previous": "v1",
+      "note": "道路更新：河湾人行桥"
+    },
+    {
+      "id": "v3",
+      "manifest": "versions/v3/manifest.json",
+      "created": "2025-04-07",
+      "previous": "v2",
+      "note": "能力更新：西岸与共用窗口增员"
+    }
+  ]
+}

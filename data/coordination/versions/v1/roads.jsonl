@@ -1,0 +1,11 @@
+{"id": "r_w1_w2", "minutes": 12, "mode": "walk", "name": "西岸村道", "one_way": false, "source": "w1", "target": "w2"}
+{"id": "r_w1_bw", "minutes": 26, "mode": "walk", "name": "西岸到桥头", "one_way": false, "source": "w1", "target": "bw"}
+{"id": "r_bw_be", "minutes": 14, "mode": "walk", "name": "北桥（绕行）", "one_way": false, "source": "bw", "target": "be"}
+{"id": "r_be_e1", "minutes": 10, "mode": "walk", "name": "桥头到集镇", "one_way": false, "source": "be", "target": "e1"}
+{"id": "r_e1_e2", "minutes": 16, "mode": "walk", "name": "集镇到河湾", "one_way": false, "source": "e1", "target": "e2"}
+{"id": "r_e2_h1", "minutes": 30, "mode": "walk", "name": "河湾到北坡", "one_way": false, "source": "e2", "target": "h1"}
+{"id": "b_e1_e2", "minutes": 7, "mode": "bus", "name": "集镇—河湾班线", "one_way": false, "source": "e1", "target": "e2"}
+{"id": "b_e2_h1", "minutes": 10, "mode": "bus", "name": "河湾—北坡班线", "one_way": false, "source": "e2", "target": "h1"}
+{"id": "r_e1_mb", "minutes": 34, "mode": "walk", "name": "集镇到山坳口", "one_way": false, "source": "e1", "target": "mb"}
+{"id": "r_mb_m1", "minutes": 12, "mode": "walk", "name": "上山步道", "one_way": false, "source": "mb", "target": "m1"}
+{"id": "b_e1_mb", "minutes": 22, "mode": "bus", "name": "集镇—山坳口班线", "one_way": false, "source": "e1", "target": "mb"}

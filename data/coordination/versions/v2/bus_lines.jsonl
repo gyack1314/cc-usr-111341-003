@@ -1,0 +1,3 @@
+{"days": ["mon", "tue", "wed", "thu", "fri", "sat"], "first_departure": "06:30", "headway_minutes": 30, "id": "L_e1_e2", "last_departure": "18:30", "name": "集镇—河湾", "road": "b_e1_e2", "wait_rule": "timetable"}
+{"days": ["mon", "tue", "wed", "thu", "fri"], "first_departure": "07:00", "headway_minutes": 60, "id": "L_e2_h1", "last_departure": "17:00", "name": "河湾—北坡", "road": "b_e2_h1", "wait_rule": "timetable"}
+{"days": ["mon", "tue", "wed", "thu", "fri"], "first_departure": "08:00", "headway_minutes": 120, "id": "L_e1_mb", "last_departure": "14:00", "name": "集镇—山坳口（每日4班）", "road": "b_e1_mb", "wait_rule": "timetable"}

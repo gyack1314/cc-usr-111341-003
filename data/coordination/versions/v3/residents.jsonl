@@ -1,0 +1,12 @@
+{"age": "70-79", "area": "西岸", "group": "老年", "id": "r_w1_wang", "node": "w1", "people": 2, "person": "p_wang"}
+{"age": "40-49", "area": "西岸", "group": "劳动年龄", "id": "r_w1_li", "node": "w1", "people": 1, "person": "p_li"}
+{"age": "80+", "area": "西岸", "group": "老年", "id": "r_w2_zhao", "node": "w2", "people": 1, "person": "p_zhao"}
+{"age": "30-39", "area": "西岸", "group": "劳动年龄", "id": "r_w2_chen", "node": "w2", "people": 1, "person": "p_chen"}
+{"age": "70-79", "area": "东岸", "group": "老年", "id": "r_e1_sun", "node": "e1", "people": 1, "person": "p_sun"}
+{"age": "40-49", "area": "东岸", "group": "劳动年龄", "id": "r_e1_zhou", "node": "e1", "people": 1, "person": "p_zhou"}
+{"age": "80+", "area": "东岸", "group": "老年", "id": "r_e2_wu", "node": "e2", "people": 1, "person": "p_wu"}
+{"age": "30-39", "area": "东岸", "group": "劳动年龄", "id": "r_e2_zheng", "node": "e2", "people": 1, "person": "p_zheng"}
+{"age": "70-79", "area": "北坡", "group": "老年", "id": "r_h1_feng", "node": "h1", "people": 1, "person": "p_feng"}
+{"age": "40-49", "area": "北坡", "group": "劳动年龄", "id": "r_h1_qian", "node": "h1", "people": 1, "person": "p_qian"}
+{"age": "70-79", "area": "山坳", "group": "老年", "id": "r_m1_ma", "node": "m1", "people": 1, "person": "p_ma"}
+{"age": "80+", "area": "山坳", "group": "老年", "id": "r_m1_mo", "node": "m1", "people": 1, "person": "p_mo"}
